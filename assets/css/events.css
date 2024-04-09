@@ -1,0 +1,144 @@
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 50px 40px 20px 40px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.section__events__contents p {
+  margin-bottom: 16px;
+}
+
+.slider img {
+  width: 100%;
+}
+
+.section__events {
+  max-width: 1900px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.section__events__contents {
+  width: 50%;
+  text-align: justify;
+  line-height: 2em;
+  text-indent: 40px;
+  flex-shrink: 1;
+}
+
+.slider {
+  position: relative;
+  width: 30%;
+  max-height: 667px;
+  overflow: hidden;
+  /* flex-shrink: 1; */
+}
+
+.slides {
+  width: 500%;
+  max-height: 667px;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 20%;
+  position: relative;
+  transition: 1.5s;
+}
+
+.manual__navigation {
+  position: absolute;
+  width: 100%;
+  /* margin-top: -40px; */
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual__btn {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual__btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manual__btn:hover {
+  background-color: #fff;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+  margin-left: -60%;
+}
+
+#radio5:checked ~ .first {
+  margin-left: -80%;
+}
+
+.navigation__auto div {
+  border: 2px solid #20a6ff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.navigation__auto {
+  position: absolute;
+  width: 100%;
+  /* margin-top: 667px; */
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation__auto div:not(:last-child) {
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation__auto .auto__btn1 {
+  background-color: #fff;
+}
+
+#radio2:checked ~ .navigation__auto .auto__btn2 {
+  background-color: #fff;
+}
+
+#radio3:checked ~ .navigation__auto .auto__btn3 {
+  background-color: #fff;
+}
+
+#radio4:checked ~ .navigation__auto .auto__btn4 {
+  background-color: #fff;
+}
+
+#radio5:checked ~ .navigation__auto .auto__btn5 {
+  background-color: #fff;
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: #f3f3f3;
+}
+
+#containerIframe {
+    position: relative;
+    max-width: 1500px;
+    height: 650px;
+    /* background-color: yellow; */
+    margin: 50px auto;
+}
+
+iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

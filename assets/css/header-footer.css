@@ -1,0 +1,140 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+:root {
+    --cor0:#f4c6c6c8; 
+    --cor1:#FA3434;
+    --cor2:#7A3E3E;
+    --cor3:#C72A2A;
+    --cor4:#591313;
+}
+header {
+    background: var(--cor4);
+    padding: 10px 35px;
+}
+
+header #logomarca {
+    max-width: 400px;
+}
+
+header img {
+    width: 100%;
+}
+
+.flex-itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 60px;
+    width: 100px;
+    box-sizing: content-box;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--cor0);
+    font-size: 18px;
+    padding: 7px;
+    transition: .1s;
+}
+
+nav ul li a:hover {
+    color: #f4c430;
+    width: 50%;
+    left: 25%;
+}
+
+#menu__icon {
+    display: none;
+    color: var(--cor0);
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: auto;
+    padding: 15px 30px;
+    top: 60px;
+    right: 35px;
+    background-color: var(--cor4);
+    z-index: 1;
+}
+
+.hide {
+    display: none;
+}
+
+
+footer {
+    height: 30vh;
+    background-color: var(--cor4);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.el-center {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+.contact-icons {
+    display: inline;
+    font-size: 36px;
+    font-weight: bold;
+    margin: auto;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-icons:hover {
+    color: #f4c430;
+}
+
+.contact {
+    margin: 5px;
+}
+
+#mainIcon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #000001;
+}
+
+#mainIcon:hover {
+    color: #f4c430;
+}

@@ -1,0 +1,251 @@
+@media (max-width: 1138px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav {
+    display: none;
+    margin-right: 35px;
+  }
+
+  
+  #menu__icon {
+    display: block;
+  }
+
+  .menu ul {
+    list-style-type: none;
+  }
+
+  .menu ul li {
+    margin-bottom: 20px;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+    color: var(--cor0);
+    font-size: 18px;
+    padding: 7px;
+    transition: .1s;
+  }
+  .menu ul li a:hover {
+    color: #f4c430;
+    width: 50%;
+    left: 25%;
+  }
+}
+
+@media (max-width: 992px) {
+  section div {
+    max-width: 700px;
+    margin-left: 20px;
+  }
+  section div h1 {
+    font-size: 40px;
+  }
+
+  section div p {
+    font-size: 20px;
+  }
+
+  #section > p {
+    font-size: 16px;
+    max-width: 500px;
+    padding: 16px;
+  }
+
+
+  #profileimg {
+    min-width: 250px;
+    min-height: 250px;
+    background: url(../img/profile.jpeg) center top, no-repeat;
+    background-size: cover;
+  }
+
+  #dif-color {
+    height: 1100px;
+  }
+
+  #dif-color h1 {
+    font-size: 40px;
+  }
+
+  .dif-itens h2 {
+    font-size: 16px;
+  }
+
+  .dif-itens p {
+    font-size: 13px;
+  }
+
+  .dif-itens {
+    width: 200px;
+    min-height: 250px;
+  }
+
+  .action-area h1 {
+    padding-top: 125px;
+    font-size: 40px;
+  }
+
+  .action-area span {
+    font-size: 100px;
+  }
+
+  .action-itens p {
+    font-size: 13px;
+  }
+
+  #container {
+    grid-template-columns: 1fr;
+  }
+
+  article {
+    margin: 16px;
+  }
+
+  article h1 {
+    font-size: 30px;
+  }
+
+  aside {
+    width: 90%;
+    margin: auto;
+    max-height: 300px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .section__events {
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .slider {
+    min-width: 423.11px;
+  }
+
+  .section__events__contents {
+    width: 90%;
+  }
+
+  footer {
+    height: 20vh;
+  }
+
+  footer p {
+    font-size: 13px;
+    padding: 0px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  section div h1 {
+    font-size: 25px;
+  }
+
+  section div p {
+    font-size: 16px;
+  }
+
+  #section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  #profileimg {
+    margin-right: 0;
+  }
+
+  #section p {
+    margin-left: 0;
+  }
+
+  #dif-color {
+    height: 2200px;
+  }
+
+  .dif-box-one, .dif-box-two {
+    flex-direction: column;
+  }
+
+  .dif-itens {
+    width: 300px;
+    height: 360px;
+  }
+
+  .dif-itens h2 {
+    font-size: 20px;
+  }
+
+  .dif-itens p {
+    font-size: 15px;
+  }
+
+  .action-box-one, .action-box-two {
+    flex-wrap: wrap;
+    column-gap: normal;
+    gap: 20px;
+    padding: 0px 16px;
+  }
+
+  #containerIframe, iframe {
+    height: 915px;
+  }
+
+  article h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  #mobile {
+    display: block;
+  }
+
+  #section {
+    height: 120vh;
+  }
+
+  .action-area {
+    height: 140vh;
+  }
+
+  .action-area span {
+    font-size: 70px;
+  }
+
+  .action-box-one, .action-box-two {
+    flex: 2;
+  }
+
+  #containerIframe, iframe {
+    height: 1050px;
+  }
+
+  aside {
+    max-height: 400px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .slider {
+    min-width: 280px;
+  }
+
+  footer {
+    height: 30vh;
+  }
+}
