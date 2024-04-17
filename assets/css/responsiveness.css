@@ -85,8 +85,11 @@
     min-height: 250px;
   }
 
+  .action-area {
+    padding-bottom: 20px;
+  }
+
   .action-area h1 {
-    padding-top: 125px;
     font-size: 40px;
   }
 
@@ -214,7 +217,7 @@
   }
 
   .action-area {
-    height: 140vh;
+    padding: 50px;
   }
 
   .action-area span {
@@ -247,5 +250,11 @@
 
   footer {
     height: 30vh;
+  }
+}
+
+@media (max-width: 414px) {
+  .action-area {
+    padding-bottom: 100px;
   }
 }
