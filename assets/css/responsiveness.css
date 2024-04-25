@@ -220,12 +220,17 @@
     padding: 50px;
   }
 
+  .action-area h1 {
+    font-size: 40px;
+  }
+
   .action-area span {
     font-size: 70px;
   }
 
-  .action-box-one, .action-box-two {
-    flex: 2;
+  .action-itens {
+    flex-basis: 40%;
+    flex-shrink: 1;
   }
 
   #containerIframe, iframe {
@@ -254,7 +259,15 @@
 }
 
 @media (max-width: 414px) {
+
+  #dif-color h1 {
+    font-size: 30px;
+  }
   .action-area {
     padding-bottom: 100px;
+  }
+
+  .action-area h1 {
+    font-size: 30px;
   }
 }
