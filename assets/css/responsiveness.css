@@ -35,6 +35,17 @@
     width: 50%;
     left: 25%;
   }
+
+  #perfilG p {
+    font-size: 14px;
+    width: 500px;
+  }
+
+  #perfilC p {
+    font-size: 14px;
+    width: 500px;
+    left: -521px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -56,6 +67,18 @@
     padding: 16px;
   }
 
+/*Apresentação dos advogados*/
+  #perfilG p {
+  font-size: 14px;
+  width: 245px;
+  top: 224px;
+  }
+
+  #perfilC p {
+  font-size: 14px;
+  width: 272px;
+  left: -287px;
+  }
 
   #profileimg {
     min-width: 250px;
@@ -160,6 +183,44 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+  }
+
+  /*Apresentação dos advogados*/
+
+  .containerImg {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 81px;
+  }
+
+  #perfilG {
+    align-self: center;
+    margin-top: 100px;
+  }
+
+  #perfilG p {
+    font-size: 14px;
+    text-align: center;
+    width: 245px;
+    top: 370px;
+    left: 5%;
+  }
+
+  #perfilC {
+    align-self: center;
+    margin-bottom: 140px;
+  }
+
+  #perfilC p {
+    font-size: 14px;
+    text-align: center;
+    width: 272px;
+    top: 81%;
+    left: -15px;
+  }
+
+  #section_advogados {
+    height: 1100px;
   }
 
   #profileimg {
